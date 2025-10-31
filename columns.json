@@ -1,0 +1,32 @@
+{
+  "feature_order": [
+    "Age",
+    "PSA_Level",
+    "DRE_Result",
+    "Family_History"
+  ],
+  "numeric_features": [
+    "Age",
+    "PSA_Level"
+  ],
+  "binary_features": [
+    "DRE_Result",
+    "Family_History"
+  ],
+  "dre_encoding": {
+    "Normal": 0,
+    "Abnormal": 1
+  },
+  "family_history_encoding": {
+    "No": 0,
+    "Yes": 1
+  },
+  "target": {
+    "positive_class": 1,
+    "negative_class": 0
+  },
+  "selected_model": "logreg",
+  "cv_auroc_mean": 0.4994601673521556,
+  "random_state": 42,
+  "best_threshold": 0.3005354573945525
+}
