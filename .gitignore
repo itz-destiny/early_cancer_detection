@@ -1,0 +1,12 @@
+.venv/
+venv/
+
+build/
+dist/
+*.exe
+
+__pycache__/
+*.py[cod]
+
+*.log
+
